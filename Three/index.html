@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="topnav">
+            <div class="name">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <span>John Smith</span>
+            </div>
+            <div class="links">
+                <a href="#about">About Me</a>
+                <a href="#projects">Project Details</a>
+                <a href="#skills">Skills</a>
+                <a href="#recommendations">Recommendations</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="flex-container">
+            <img src="https://via.placeholder.com/150" alt="Profile Image">
+            <div>
+                <h1>John Smith</h1>
+                <p>
+                    I am a passionate full-stack developer with 5+ years of experience in 
+                    building web applications. I specialize in JavaScript, Python, and cloud 
+                    technologies. I enjoy creating solutions that solve real-world problems 
+                    and continuously learning new technologies.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="all_skills">
+            <div class="skill">
+                <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
+                <h6>HTML</h6>
+                <p>2 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+                <h6>CSS</h6>
+                <p>2 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+                <h6>JavaScript</h6>
+                <p>3 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="https://img.icons8.com/color/48/000000/python.png"/>
+                <h6>Python</h6>
+                <p>4 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="https://img.icons8.com/color/48/000000/react-native.png"/>
+                <h6>React</h6>
+                <p>3 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
+                <h6>Node.js</h6>
+                <p>2 years experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <ul>
+                    <li>Built a full-stack e-commerce platform using React and Node.js</li>
+                    <li>Implemented payment integration with Stripe API</li>
+                    <li>Created a responsive UI with real-time inventory updates</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+                <h3>Task Management Dashboard</h3>
+                <ul>
+                    <li>Developed a Kanban-style task management system</li>
+                    <li>Added real-time collaboration features</li>
+                    <li>Integrated with Google Calendar API</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+                <h3>AI Chatbot Assistant</h3>
+                <ul>
+                    <li>Created an intelligent chatbot using Python and NLP</li>
+                    <li>Implemented sentiment analysis for user feedback</li>
+                    <li>Deployed on AWS with serverless architecture</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h1>Recommendations</h1>
+        <div class="recommendations-container">
+            <div class="recommendation-card">
+                <span class="quote">"</span>
+                <p>John is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding.</p>
+                <span class="quote">"</span>
+                <h4>— Sarah Johnson, Tech Lead</h4>
+            </div>
+            <div class="recommendation-card">
+                <span class="quote">"</span>
+                <p>Working with John was a pleasure. He brings creativity and technical expertise to every project, making him an invaluable team member.</p>
+                <span class="quote">"</span>
+                <h4>— Michael Chen, Project Manager</h4>
+            </div>
+            <div class="recommendation-card">
+                <span class="quote">"</span>
+                <p>John's ability to learn new technologies quickly and implement them effectively is impressive. He's a true asset to any development team.</p>
+                <span class="quote">"</span>
+                <h4>— Emily Rodriguez, Senior Developer</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="recommendations-form">
+        <h1>Leave a Recommendation</h1>
+        <fieldset>
+            <legend>Your Details</legend>
+            <input type="text" id="recommendation-name" placeholder="Name (Optional)"><br>
+            <textarea id="recommendation-text" rows="4" placeholder="Message"></textarea><br>
+            <button id="submit-recommendation" onclick="addRecommendation()">Submit</button>
+        </fieldset>
+    </section>
+
+    <!-- Home Icon -->
+    <div class="home-icon">
+        <a href="#"><i class="fa fa-home"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
