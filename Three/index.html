@@ -1,154 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minahil · Portfolio</title>
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="topnav">
-            <div class="name">
-                <i class="fa fa-user-circle" aria-hidden="true"></i>
-                <span>John Smith</span>
-            </div>
-            <div class="links">
-                <a href="#about">About Me</a>
-                <a href="#projects">Project Details</a>
-                <a href="#skills">Skills</a>
-                <a href="#recommendations">Recommendations</a>
-            </div>
-        </div>
-    </nav>
+  <div class="portfolio">
 
-    <!-- About Me Section -->
-    <section id="about">
-        <div class="flex-container">
-            <img src="https://via.placeholder.com/150" alt="Profile Image">
-            <div>
-                <h1>John Smith</h1>
-                <p>
-                    I am a passionate full-stack developer with 5+ years of experience in 
-                    building web applications. I specialize in JavaScript, Python, and cloud 
-                    technologies. I enjoy creating solutions that solve real-world problems 
-                    and continuously learning new technologies.
-                </p>
-            </div>
-        </div>
-    </section>
+    <!-- header -->
+    <header class="header">
+      <div class="name-title">
+        <h1>Minahil</h1>
+        <span class="badge"><i class="fas fa-code"></i> frontend · mobile</span>
+      </div>
+      <div class="contact-links">
+        <a href="#"><i class="fas fa-phone-alt"></i> 0330-2916882</a>
+        <a href="#"><i class="fas fa-envelope"></i> minahil4864@gmail.com</a>
+        <a href="#"><i class="fas fa-map-pin"></i> Karachi, PK</a>
+        <a href="#"><i class="fas fa-globe"></i> vercel</a>
+      </div>
+    </header>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h1>Skills</h1>
-        <div class="all_skills">
-            <div class="skill">
-                <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
-                <h6>HTML</h6>
-                <p>2 years experience</p>
-            </div>
-            <div class="skill">
-                <img src="https://img.icons8.com/color/48/000000/css3.png"/>
-                <h6>CSS</h6>
-                <p>2 years experience</p>
-            </div>
-            <div class="skill">
-                <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
-                <h6>JavaScript</h6>
-                <p>3 years experience</p>
-            </div>
-            <div class="skill">
-                <img src="https://img.icons8.com/color/48/000000/python.png"/>
-                <h6>Python</h6>
-                <p>4 years experience</p>
-            </div>
-            <div class="skill">
-                <img src="https://img.icons8.com/color/48/000000/react-native.png"/>
-                <h6>React</h6>
-                <p>3 years experience</p>
-            </div>
-            <div class="skill">
-                <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
-                <h6>Node.js</h6>
-                <p>2 years experience</p>
-            </div>
-        </div>
-    </section>
+    <!-- two column layout -->
+    <div class="grid-2col">
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h1>Projects</h1>
-        <div class="projects-container">
-            <div class="project-card">
-                <h3>E-Commerce Platform</h3>
-                <ul>
-                    <li>Built a full-stack e-commerce platform using React and Node.js</li>
-                    <li>Implemented payment integration with Stripe API</li>
-                    <li>Created a responsive UI with real-time inventory updates</li>
-                </ul>
-            </div>
-            <hr>
-            <div class="project-card">
-                <h3>Task Management Dashboard</h3>
-                <ul>
-                    <li>Developed a Kanban-style task management system</li>
-                    <li>Added real-time collaboration features</li>
-                    <li>Integrated with Google Calendar API</li>
-                </ul>
-            </div>
-            <hr>
-            <div class="project-card">
-                <h3>AI Chatbot Assistant</h3>
-                <ul>
-                    <li>Created an intelligent chatbot using Python and NLP</li>
-                    <li>Implemented sentiment analysis for user feedback</li>
-                    <li>Deployed on AWS with serverless architecture</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+      <!-- left column -->
+      <div class="left-col">
 
-    <!-- Recommendations Section -->
-    <section id="recommendations">
-        <h1>Recommendations</h1>
-        <div class="recommendations-container">
-            <div class="recommendation-card">
-                <span class="quote">"</span>
-                <p>John is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding.</p>
-                <span class="quote">"</span>
-                <h4>— Sarah Johnson, Tech Lead</h4>
-            </div>
-            <div class="recommendation-card">
-                <span class="quote">"</span>
-                <p>Working with John was a pleasure. He brings creativity and technical expertise to every project, making him an invaluable team member.</p>
-                <span class="quote">"</span>
-                <h4>— Michael Chen, Project Manager</h4>
-            </div>
-            <div class="recommendation-card">
-                <span class="quote">"</span>
-                <p>John's ability to learn new technologies quickly and implement them effectively is impressive. He's a true asset to any development team.</p>
-                <span class="quote">"</span>
-                <h4>— Emily Rodriguez, Senior Developer</h4>
-            </div>
-        </div>
-    </section>
+        <!-- SKILLS -->
+        <section class="card card-skills">
+          <div class="card-title"><i class="fas fa-cogs"></i> Skills</div>
+          <div class="skill-pills">
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">TypeScript</span>
+            <span class="skill-pill">HTML/CSS</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">React.js</span>
+            <span class="skill-pill">Next.js</span>
+            <span class="skill-pill">React Native</span>
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">Express</span>
+            <span class="skill-pill">MongoDB</span>
+            <span class="skill-pill">Redux</span>
+            <span class="skill-pill">GSAP</span>
+            <span class="skill-pill">GitHub</span>
+            <span class="skill-pill">Postman</span>
+          </div>
+        </section>
 
-    <!-- Recommendation Form -->
-    <section id="recommendations-form">
-        <h1>Leave a Recommendation</h1>
-        <fieldset>
-            <legend>Your Details</legend>
-            <input type="text" id="recommendation-name" placeholder="Name (Optional)"><br>
-            <textarea id="recommendation-text" rows="4" placeholder="Message"></textarea><br>
-            <button id="submit-recommendation" onclick="addRecommendation()">Submit</button>
-        </fieldset>
-    </section>
+        <!-- EDUCATION -->
+        <section class="card card-edu">
+          <div class="card-title"><i class="fas fa-graduation-cap"></i> Education</div>
+          <div class="edu-item">
+            <div class="edu-head">
+              <span class="edu-degree">B.S. Software Engineering</span>
+              <span class="edu-year">2021 – 2025</span>
+            </div>
+            <div class="edu-school">DCS UBIT · CGPA 3.2</div>
+            <div class="edu-course">Data Structures · Algorithms · Databases · OOP · Networking · Security · Software Testing</div>
+          </div>
+        </section>
 
-    <!-- Home Icon -->
-    <div class="home-icon">
-        <a href="#"><i class="fa fa-home"></i></a>
+        <!-- PROJECTS (compact) -->
+        <section class="card card-projects">
+          <div class="card-title"><i class="fas fa-folder-open"></i> Projects</div>
+          <ul class="project-list">
+            <li><i class="fas fa-globe"></i> <strong>Halal DevCo.</strong> – React + Strapi CMS, i18n (RTL), animations</li>
+            <li><i class="fas fa-heart"></i> <strong>Winglt</strong> – React Native, real‑time matching, Stripe, WebSockets</li>
+            <li><i class="fas fa-plane"></i> <strong>Daleel Travel</strong> – flight/hotel booking, itinerary planner, APIs</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- right column -->
+      <div class="right-col">
+
+        <!-- EXPERIENCE -->
+        <section class="card card-exp">
+          <div class="card-title"><i class="fas fa-briefcase"></i> Experience</div>
+
+          <div class="exp-item">
+            <div class="exp-head">
+              <span class="exp-role"><i class="fas fa-code"></i> Frontend Developer – Mobile Apps</span>
+              <span class="exp-date">Oct 2025 – Present</span>
+            </div>
+            <div class="exp-company">CodeMolex Inc. · Remote (Frisco, TX)</div>
+            <ul class="exp-desc">
+              <li>Cross‑platform React Native apps: dating platform with live notifications, chat, video/voice (GetStream, WebSockets).</li>
+              <li>Stripe integration for event tickets, real‑time likes/messaging.</li>
+            </ul>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-head">
+              <span class="exp-role"><i class="fas fa-laptop-code"></i> Frontend Developer – Websites & Web Apps</span>
+              <span class="exp-date">Aug 2024 – Feb 2025</span>
+            </div>
+            <div class="exp-company">360Xpert Solutions · Onsite (Karachi)</div>
+            <ul class="exp-desc">
+              <li>Collaborated with designers/backend devs to deliver scalable web apps.</li>
+              <li>Implemented i18n (Arabic RTL) and Strapi CMS for dynamic content.</li>
+            </ul>
+          </div>
+
+          <!-- extra mini note: projects already listed, but we keep it clean -->
+          <div style="margin-top:1.2rem; font-size:0.85rem; color:#3d2e57; background:rgba(255,255,255,0.3); padding:0.6rem 1rem; border-radius:40px; border:1px solid rgba(123,75,154,0.1);">
+            <i class="fas fa-rocket" style="margin-right:0.5rem; color:#7b4b9a;"></i> 3+ years of full‑cycle development
+          </div>
+        </section>
+
+        <!-- highlight / extra (callout) -->
+        <section class="card card-highlight">
+          <div class="card-title"><i class="fas fa-star"></i> Tech Stack</div>
+          <div style="display:flex; flex-wrap:wrap; gap:0.5rem 0.8rem;">
+            <span class="stack-tag"><i class="fab fa-react"></i> React / Next</span>
+            <span class="stack-tag"><i class="fab fa-node"></i> Node / Express</span>
+            <span class="stack-tag"><i class="fas fa-database"></i> MongoDB</span>
+            <span class="stack-tag"><i class="fas fa-cloud"></i> Redux</span>
+            <span class="stack-tag"><i class="fas fa-mobile-alt"></i> React Native</span>
+          </div>
+          <div style="margin-top:1.2rem; font-size:0.9rem; background:linear-gradient(135deg, #f3edff, #e8dff5); padding:0.7rem 1.2rem; border-radius:60px; display:inline-block;">
+            <i class="fas fa-check-circle" style="color:#5f3b82;"></i> available for freelance
+          </div>
+        </section>
+
+      </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- footer / subtle -->
+    <div class="footer-note">
+      <span><i class="fas fa-crown" style="color:#7b4b9a;"></i> Minahil · built with <i class="fas fa-heart" style="color:#b27fd1;"></i></span>
+      <span>karachi · 2026</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
