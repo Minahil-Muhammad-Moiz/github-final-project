@@ -5,7 +5,6 @@
 
 This is the source code for my personal developer portfolio. It's a single-page, responsive website built with HTML, CSS, and JavaScript, designed to showcase my skills, experience, and projects as a frontend and mobile developer.
 
-![Portfolio Screenshot](link-to-your-screenshot.png) <!-- Add a screenshot later -->
 
 ## ✨ Features
 
@@ -41,6 +40,8 @@ text
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Minahil-Muhammad-Moiz/github-final-project.git
+
+Project Directory  https://github.com/Minahil-Muhammad-Moiz/github-final-project/blob/main/Three/index.html
 Navigate to the project directory:
 
 bash
@@ -55,22 +56,4 @@ This is a personal portfolio project and is not open for contributions. However,
 📫 Contact
 Email: minahil4864@gmail.com
 
-LinkedIn: [Your LinkedIn URL]
-
-Portfolio: [Your Live Portfolio URL]
-
 Built with ❤️ by Minahil
-
-text
-
-### Instructions to Complete the README
-
-1.  **Add a Screenshot:** Replace `link-to-your-screenshot.png` in the template with an actual link to a screenshot of your portfolio. You can upload a screenshot to your repository and link to it directly.
-2.  **Update Contact Information:** Fill in your LinkedIn and live portfolio URL in the "Contact" section.
-3.  **Add License:** If you want, you can add a `LICENSE` file (e.g., MIT License) to your repository and the badge will link to it.
-
-### What is a README File?
-
-A README file is the first thing people see when they visit your repository on GitHub. It's a markdown document (`.md`) that explains what the project is, how to use it, and any other important information. A good README makes your project look professional and helps others understand your work.
-
-I hope this helps you create an excellent README for your portfolio! Let me know if you need any other assistance.
