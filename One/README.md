@@ -1,24 +1,18 @@
-# Simple Calculator
+# Simple Interest Calculator
 
-A lightweight, user-friendly calculator application that performs basic arithmetic operations with a clean and intuitive interface.
+A simple Bash calculator to compute simple interest.
 
-## Features
+## Formula
 
-- **Basic Operations**: Addition, subtraction, multiplication, and division
-- **Clear Display**: Shows input and results in real-time
-- **Error Handling**: Gracefully handles division by zero and invalid inputs
-- **Keyboard Support**: Use both mouse clicks and keyboard inputs
-- **Memory Functions**: Store and recall previous results
-- **Responsive Design**: Works on desktop and mobile devices
+Simple Interest = P × R × T
 
-## Technologies Used
+Where:
+- P = Principal amount
+- R = Rate of interest
+- T = Time period
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+## Usage
 
-## Installation
+Run the `simple-interest.sh` script and enter the principal amount, rate of interest, and time period when prompted.
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/simple-calculator.git
+The calculator then computes and displays the simple interest.
